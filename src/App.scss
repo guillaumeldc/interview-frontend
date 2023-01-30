@@ -1,0 +1,52 @@
+.page-holder{
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100vw;
+  height: 100vh;
+}
+
+header{
+  padding: 20px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 20px;
+
+  .app-logo{
+    width: 120px;
+  }
+}
+
+section {
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  flex: 1;
+}
+.form-holder{
+  background: #fff;
+  box-shadow: 0 2px 12px 4px rgba(0,0,0,.12);
+  padding: 10px;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  align-self: center;
+  margin: auto;
+  display: flex;
+  flex-flow: column;
+
+  fieldset {
+    border: 0;
+    margin-bottom: 18px;
+  }
+
+  ul {
+    list-style: none;
+    li {
+      cursor: pointer;
+      padding: 4px 0;
+      &:hover{ 
+        background: rgba(0,0,0,.05);
+      }
+    }
+  }
+}
